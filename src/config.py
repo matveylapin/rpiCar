@@ -1,0 +1,18 @@
+#   Screen settings
+SCREEN_WIDTH_RAW    = 768
+SCREEN_HEIGHT_RAW   = 1024
+SCREEN_SCALE        = 2.0
+
+SCREEN_WIDTH    = str(round(768 * SCREEN_SCALE))
+SCREEN_HEIGHT   = str(round(1024 * SCREEN_SCALE))
+
+#   GUI settings
+
+GUI_THEMES = {
+    'redAndBlack': {
+        'bd1': (0.18823529411764706, 0.2196078431372549, 0.2549019607843137, 1.0),          # black
+        'bg2': (0.22745098039215686, 0.2784313725490196, 0.3137254901960784, 1.0),          # grey
+        'selected': (0.8431372549019608, 0.13725490196078433, 0.13725490196078433, 1.0),    # red
+        'text': (0.9333333333333333, 0.9333333333333333, 0.9333333333333333, 1.0)           # white
+    }
+}
